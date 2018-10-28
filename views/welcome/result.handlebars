@@ -1,0 +1,22 @@
+<article class="check">
+
+
+     <header>
+            <h1>Palindrome Results!</h1>
+    </header>
+    <p>
+           {{#if check}}
+                <label class="success">{{check.test_to_test}}</label>
+            {{else}}
+                <label class="failure">{{check.test_to_test}}</label>
+            {{/if}}
+    </p>
+    <p>
+        {{#if check}}
+            <label class="success">The string is a palindrome</label>
+        {{else}}
+            <label class="failure">The string is not a palindrome</label>
+        {{/if}}
+    </p>
+    <a href="http://localhost:3000">Try another palindrome</a>
+</article>
