@@ -1,7 +1,3 @@
-const mongoCollections = require("../config/mongoCollections");
-const palindrome = mongoCollections.palindrome;
-const uuid = require("node-uuid");
-
 let exportedMethods = {
     checkPalindrome(phrase) {
 
